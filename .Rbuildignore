@@ -1,0 +1,6 @@
+^joinlsac\.Rproj$
+^\.Rproj\.user$
+^LICENSE\.md$
+^data-raw$
+^\.devcontainer/devcontainer\.json$
+^scratch\.R$

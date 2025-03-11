@@ -1,0 +1,21 @@
+Package: joinlsac
+Title: Joins LSAC Data Files for Further Analysis
+Version: 0.0.0.9000
+Authors@R: 
+    person("Taren", "Sanders", , "taren.sanders@acu.edu.au", role = c("aut", "cre"))
+Description: A tool to read and join data files from the Longitudinal Study of Australian Children (LSAC) for further analysis.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    data.table,
+    dplyr,
+    foreign,
+    glue,
+    progress,
+    rlang
+Suggests: 
+    tibble
+Depends: 
+    R (>= 3.5)

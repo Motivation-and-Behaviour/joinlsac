@@ -1,0 +1,29 @@
+lsac_ids <- tibble::tribble(
+  ~cohort, ~wave, ~letter,
+  "B", 1, "a",
+  "B", 2, "b",
+  "B", 2.5, "b",
+  "B", 3, "c",
+  "B", 3.5, "c",
+  "B", 4, "d",
+  "B", 5, "e",
+  "B", 6, "f",
+  "B", 7, "g",
+  "B", 8, "h",
+  "B", 9.1, "i1",
+  "B", 9.2, "i2",
+  "K", 1, "c",
+  "K", 2, "d",
+  "K", 2.5, "d",
+  "K", 3, "e",
+  "K", 3.5, "e",
+  "K", 4, "f",
+  "K", 5, "g",
+  "K", 6, "h",
+  "K", 7, "i",
+  "K", 8, "j",
+  "K", 9.1, "k1",
+  "K", 9.2, "k2"
+) |> as.data.frame()
+
+usethis::use_data(lsac_ids, overwrite = TRUE, internal = TRUE)
