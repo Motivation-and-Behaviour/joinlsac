@@ -21,7 +21,7 @@ joinsurveys <- function(datadir, cohorts = c("b", "k"), ages = "all", vars) {
 
   ages_vals <- c(
     "all", "0", "2", "3", "4", "5", "6", "7", "8", "9", "10", "12", "14", "16",
-    "17", "18", "20", "21"
+    "17", "18", "20", "21", "23"
   )
   ages <- rlang::arg_match(ages, values = ages_vals, multiple = TRUE)
   ages <- if ("all" %in% ages) ages_vals[-1] else ages

@@ -12,6 +12,7 @@ lsac_ids <- tibble::tribble(
   "B", 8, "h",
   "B", 9.1, "i1",
   "B", 9.2, "i2",
+  "B", 10, "j",
   "K", 1, "c",
   "K", 2, "d",
   "K", 2.5, "d",
@@ -23,7 +24,8 @@ lsac_ids <- tibble::tribble(
   "K", 7, "i",
   "K", 8, "j",
   "K", 9.1, "k1",
-  "K", 9.2, "k2"
+  "K", 9.2, "k2",
+  "K", 10, "l"
 ) |> as.data.frame()
 
 usethis::use_data(lsac_ids, overwrite = TRUE, internal = TRUE)
