@@ -12,6 +12,7 @@
 #' by default.
 #'
 #' @return A dataframe in long format.
+#' @export
 #'
 #' @examples
 #' # ADD_EXAMPLES_HERE
